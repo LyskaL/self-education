@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 public class Validator {
 	private static final String REGEX_FOR_NAME = "^[A-z][a-z]+";
+	@SuppressWarnings("serial")
 	private static final SimpleDateFormat DATE_FORMAT = 
 			new SimpleDateFormat("dd.MM.yyyy") {{setLenient(false);}};
 
