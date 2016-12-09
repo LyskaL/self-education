@@ -7,13 +7,13 @@ import java.util.List;
 public class Main {
 	
 	public static void main(final String[] args) {
-		OurCollection numbers = new OurCollection();
+		Numbers numbers = new Numbers();
 		
 		System.out.println("Our Collaction: ");
 		show(numbers.getCollection());
 		
 		List<Integer> addNumbers = new ArrayList<>();
-		OurCollection.generateNumbers(addNumbers, 10);
+		Numbers.generateNumbers(addNumbers, 10);
 		
 		System.out.println("List: ");
 		show(addNumbers);

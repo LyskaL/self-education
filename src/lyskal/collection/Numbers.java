@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 
-public class OurCollection {
+public class Numbers {
 	private Collection<Integer> _numbers;
 	private static final int DEFAULT_SIZE = 5;
 
-	public OurCollection() {
+	public Numbers() {
 		init(DEFAULT_SIZE);
 	}
 	
-	public OurCollection(final int size) {
+	public Numbers(final int size) {
 		init(size);
 	}
 	
@@ -45,12 +46,12 @@ public class OurCollection {
 	}
 	
 	public Collection<Integer> getCollection() {
-		return _numbers;
+		return Collections.unmodifiableCollection(_numbers);
 	}
 	
 	public void sort() {
 		List<Integer> sortedList = new ArrayList<>(_numbers);
 		Collections.sort(sortedList);
-		_numbers = new HashSet<>(sortedList);
+		_numbers = new LinkedHashSet<>(sortedList);
 	}
 }
