@@ -1,4 +1,4 @@
-package lyskal.map.hashmap;
+package lyskal.map.hashmap.students;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package lyskal.map.hashmap;
+package lyskal.map.hashmap.students;
 
 public abstract class Person {
 	private String _firstName;

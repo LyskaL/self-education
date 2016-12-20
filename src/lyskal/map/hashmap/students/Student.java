@@ -1,4 +1,4 @@
-package lyskal.map.hashmap;
+package lyskal.map.hashmap.students;
 
 public class Student extends Person {
 

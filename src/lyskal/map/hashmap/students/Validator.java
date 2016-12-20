@@ -1,4 +1,4 @@
-package lyskal.map.hashmap;
+package lyskal.map.hashmap.students;
 
 import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
