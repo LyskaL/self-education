@@ -3,8 +3,7 @@ package lyskal.map.hashmap.students;
 public abstract class Person {
 	@Override
 	public String toString() {
-		return "Person [_firstName=" + _firstName + ", _lastName=" + _lastName + ", _middleName=" + _middleName
-				+ ", _birthday=" + _birthday + "]";
+		return " " + _lastName + " " + _firstName + " " + _middleName + "\t" + _birthday;
 	}
 
 	private String _firstName;

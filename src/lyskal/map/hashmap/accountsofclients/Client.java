@@ -18,6 +18,11 @@ public class Client extends Person {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "[Client: " + super.toString() + "\t loan amount = " + _loanAmount + "]";
+	}
+
 	public int getLoanAmount() {
 		return _loanAmount;
 	}
